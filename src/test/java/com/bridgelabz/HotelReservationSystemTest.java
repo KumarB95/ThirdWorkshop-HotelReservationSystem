@@ -11,4 +11,8 @@ public class HotelReservationSystemTest {
         Obj.addHotelDetails();
         Assertions.assertEquals( 3, Obj.hotelList.size());
     }
+    @Test
+    void checkCheapestHotel(){
+        Obj.findCheapestHotel();
+    }
 }
